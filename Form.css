@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: center;
+    text-align: center;
+}
+ head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  
+  
+  background:
+  linear-gradient(
+    -72deg,
+    #ffde45,
+    #ffffff 16%,
+    #ffde45 21%,
+    #ffffff 24%,
+    #452100 27%,
+    #ffde45 36%,
+    #ffffff 45%,
+    #ffffff 60%,
+    #ffde45 72%,
+    #ffffff 80%,
+    #ffde45 84%,
+    #452100
+  )
+
+
+ }
+
+ label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: black;
+  }
+
+.form-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: i;
+}
+
+#fullname{
+    size: 20px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+
+  }
+  
+  .invalid-feedback {
+    color: red;
+  }
+ 
